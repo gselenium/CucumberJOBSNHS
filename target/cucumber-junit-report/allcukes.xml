@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="4">
+<testcase classname="Upload my resume Jobs NHS portal" name="Login into JOBS NHS portal_2" time="18.652875">
+<system-out><![CDATA[Given I open "Mozilla"...........................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "loglink"..........................................................passed
+Then I enter "loguname" as "vardhan.kg"...................................................passed
+And I enter "logpass" as "testing123"....................................................passed
+And I click on "logbutton".........................................................passed
+Then I got the "Jobs NHS home page".....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Upload my resume Jobs NHS portal" name="Login into JOBS NHS portal_1" time="16.009805">
+<system-out><![CDATA[Given I open "Mozilla"...........................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "loglink"..........................................................passed
+Then I enter "loguname" as "govardhan"...................................................passed
+And I enter "logpass" as "selenium123"...................................................passed
+And I click on "logbutton".........................................................passed
+Then I got the "My Jobs Home page".....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="I want to Register in JOBs NHS" name="Register JOBS NHS_2" time="27.704057">
+<system-out><![CDATA[Given I open "Mozilla"...........................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "reglink"..........................................................passed
+Then I enter "regfname" as "Govardhan"...................................................passed
+And I enter "regsurname" as "Karnati"....................................................passed
+And I enter "regcountry" as "India".....................................................passed
+And I enter "regemail" as "gova@gmail.com".................................................passed
+And I enter "regpass" as "test@123".....................................................passed
+And I enter "regsecQues" as "A memorable place?"..............................................passed
+And I enter "regsecans" as "singapur"....................................................passed
+Then I click on "regchebox".........................................................passed
+Then I click on "regcreate".........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="I want to Register in JOBs NHS" name="Register JOBS NHS_1" time="38.690694">
+<system-out><![CDATA[Given I open "Mozilla"...........................................................passed
+When I navigate "appurl"..........................................................passed
+Then I click on "reglink"..........................................................passed
+Then I enter "regfname" as "Naresh".....................................................passed
+And I enter "regsurname" as "Bandaru"....................................................passed
+And I enter "regcountry" as "Aruba".....................................................passed
+And I enter "regemail" as "test@gmail.com".................................................passed
+And I enter "regpass" as "sele@1234"....................................................passed
+And I enter "regsecQues" as "A memorable name?"...............................................passed
+And I enter "regsecans" as "Delhi".....................................................passed
+Then I click on "regchebox".........................................................passed
+Then I click on "regcreate".........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
